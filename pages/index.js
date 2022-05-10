@@ -69,18 +69,11 @@
 // }
 import Link from "next/link";
 
-function IndexPage() {
+function Home() {
   return (
     <>
-      <h4>This is the new home page</h4>
-      <Link href="/docs">
-        <a>Link to the docs Page</a>
-      </Link>
-      <br />
-      <Link href="/product">
-        <a>Link to the Product Page</a>
-      </Link>
+      <h4>Home Page</h4>
     </>
   );
 }
-export default IndexPage;
+export default Home;
