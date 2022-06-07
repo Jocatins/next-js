@@ -73,6 +73,13 @@ function Home() {
   return (
     <>
       <h4>Home Page</h4>
+      <Link href="/users">
+        <a>Users</a>
+      </Link>
+      <br />
+      <Link href="/posts">
+        <a>Posts</a>
+      </Link>
     </>
   );
 }
