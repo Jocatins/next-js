@@ -1,0 +1,19 @@
+Pre-rendering and Data Fetching Summary
+
+Pre-rendering refers to the process of generating HTML in advance which results in better
+performance and SEO
+Next JS supports two forms of pre-rendering Static Generation and Server Side rendering
+
+Static Generation
+A method of pre-rendering where the HTML pages are generated at build time
+Pages can be built once, cached by a CDN and served to clients almost instantly
+For a normal page, use getStaticProps function to fetch the data ahead of time
+For a dynamic page, you need the getStaticPaths function
+Pages cannot be updated without a full re-build so we opt to ISR (Incremental static regeneration)
+e.g, marketing site, blogs
+
+Server-side rendering
+Fetch data at request time
+Personalize data based on user information in the incoming request
+getServerSideProps function helps with SSR data fetching
+e.g News List paging
