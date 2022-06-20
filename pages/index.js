@@ -80,6 +80,14 @@ function Home() {
       <Link href="/posts">
         <a>Posts</a>
       </Link>
+      <br />
+      <Link href="/comments">
+        <a>Comments</a>
+      </Link>
+      <br />
+      <Link href="/news">
+        <a>News</a>
+      </Link>
     </>
   );
 }
